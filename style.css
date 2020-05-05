@@ -52,14 +52,23 @@ a:hover {
     justify-content: center;
 } */
 #name{
-  font-size: 30vh;
+  font-size: 100px;
   color: #ddd;
   font-style: oblique;
 }
 #desc{
-  font-size: 30vh;
+  font-size: 30px;
   color: #ddd;
   font-style: oblique;
+}
+
+@media (max-width: 950px){
+  #name{
+    font-size: 30px;
+  }
+  #desc{
+    font-size: 10px;
+  }
 }
 
 
