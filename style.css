@@ -5,7 +5,9 @@
     margin: 0;
 }
 body {
-    font-family: sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    background-color: black;
 }
 nav {
     overflow: hidden;
@@ -44,9 +46,29 @@ a:hover {
 .toggle a {
     font-size: 20px;
 }
-.intro{
+
+/* #name, #desc{
     display: flex;
     justify-content: center;
+} */
+#name{
+  font-size: 30vh;
+  color: #ddd;
+  font-style: oblique;
+}
+#desc{
+  font-size: 30vh;
+  color: #ddd;
+  font-style: oblique;
+}
+
+
+.main {
+  display: flex;
+  height: 900px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 /* The dropdown container */
@@ -61,7 +83,7 @@ a:hover {
     border: none;
     outline: none;
     color: white;
-    padding: 14px 16px;
+    padding: 16px 16px;
     background-color: inherit;
     font-family: inherit; /* Important for vertical align on mobile phones */
     margin: 0; /* Important for vertical align on mobile phones */
